@@ -13,7 +13,7 @@
 }
 
 $green: #219150;
-$black: #10221b;
+$black: #FF748B;
 $white: #fff;
 $light-bg: #eee;
 $border: .2rem solid $black;
@@ -87,10 +87,19 @@ section {
     }
 
     .logo {
-        margin-left: auto;
+        margin-right: auto;
         font-size: 2.5rem;
         color: $black;
         font-weight: bolder;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            height: 7rem;
+            width: 7rem;
+            margin-right: 3rem;
+        }
 
         i {
             color: $green;

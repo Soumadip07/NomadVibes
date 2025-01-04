@@ -24,7 +24,7 @@ html::-webkit-scrollbar-track {
   background: #fff;
 }
 html::-webkit-scrollbar-thumb {
-  background: #10221b;
+  background: #FF748B;
 }
 
 section {
@@ -34,15 +34,15 @@ section {
 .btn {
   margin-top: 1rem;
   display: inline-block;
-  border: 0.2rem solid #10221b;
-  color: #10221b;
+  border: 0.2rem solid #FF748B;
+  color: #FF748B;
   cursor: pointer;
   background: none;
   font-size: 1.7rem;
   padding: 1rem 3rem;
 }
 .btn:hover {
-  background: #10221b;
+  background: #FF748B;
   color: #fff;
 }
 
@@ -50,7 +50,7 @@ section {
   text-align: center;
   margin-bottom: 2.5rem;
   font-size: 4rem;
-  color: #10221b;
+  color: #FF748B;
 }
 
 .header {
@@ -68,10 +68,18 @@ section {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 .header .logo {
-  margin-left: auto;
+  margin-right: auto;
   font-size: 2.5rem;
-  color: #10221b;
+  color: #FF748B;
   font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .logo img {
+  height: 7rem;
+  width: 7rem;
+  margin-right: 3rem;
 }
 .header .logo i {
   color: #219150;
@@ -79,7 +87,7 @@ section {
 .header .navbar a {
   margin-left: 2rem;
   font-size: 1.7rem;
-  color: #10221b;
+  color: #FF748B;
 }
 .header .navbar a:hover {
   color: #219150;
@@ -87,7 +95,7 @@ section {
 .header .navbar #nav-close {
   font-size: 5rem;
   cursor: pointer;
-  color: #10221b;
+  color: #FF748B;
   display: none;
 }
 .header .icons a,
@@ -95,7 +103,7 @@ section {
   font-size: 2.5rem;
   margin-left: 2rem;
   cursor: pointer;
-  color: #10221b;
+  color: #FF748B;
 }
 .header .icons a:hover,
 .header .icons div:hover {
@@ -259,7 +267,7 @@ section {
 }
 .home .box .content span {
   font-size: 4rem;
-  color: #10221b;
+  color: #FF748B;
 }
 .home .box .content h3 {
   font-size: 6rem;
@@ -269,7 +277,7 @@ section {
 }
 .home .box .content p {
   line-height: 2;
-  color: #10221b;
+  color: #FF748B;
   font-size: 1.5rem;
   padding: 1rem 0;
 }
@@ -277,7 +285,7 @@ section {
 .swiper-button-next::after,
 .swiper-button-prev:after {
   font-size: 2rem;
-  color: #10221b;
+  color: #FF748B;
 }
 
 .category .box-container {
@@ -301,7 +309,7 @@ section {
 }
 .category .box-container .box p {
   font-size: 1.5rem;
-  color: #10221b;
+  color: #FF748B;
   padding: 1rem 0;
   line-height: 2;
 }
@@ -331,13 +339,13 @@ section {
 }
 .about .content p {
   font-size: 1.5rem;
-  color: #10221b;
+  color: #FF748B;
   padding: 1rem 0;
   line-height: 2;
 }
 
 .shop .slide {
-  border: 0.2rem solid #10221b;
+  border: 0.2rem solid #FF748B;
 }
 .shop .slide:hover .image .icons {
   transform: translateY(0);
@@ -368,7 +376,7 @@ section {
   width: 4.5rem;
   line-height: 4.5rem;
   font-size: 1.7rem;
-  background: #10221b;
+  background: #FF748B;
   color: #fff;
   margin: 0 0.2rem;
 }
@@ -381,7 +389,7 @@ section {
 }
 .shop .slide .content h3 {
   font-size: 2rem;
-  color: #10221b;
+  color: #FF748B;
 }
 .shop .slide .content .price {
   padding: 1rem 0;
@@ -391,7 +399,7 @@ section {
 }
 .shop .slide .content .stars i {
   font-size: 1.7rem;
-  color: #10221b;
+  color: #FF748B;
 }
 
 .packages {
@@ -405,12 +413,12 @@ section {
 .packages .box-container .box {
   text-align: center;
   background: #fff;
-  border: 0.2rem solid #10221b;
+  border: 0.2rem solid #FF748B;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
 }
 .packages .box-container .box:hover {
-  background: #10221b;
+  background: #FF748B;
 }
 .packages .box-container .box:hover .content > * {
   color: #fff;
@@ -440,11 +448,11 @@ section {
 }
 .packages .box-container .box .content h3 {
   font-size: 2rem;
-  color: #10221b;
+  color: #FF748B;
 }
 .packages .box-container .box .content p {
   font-size: 1.5rem;
-  color: #10221b;
+  color: #FF748B;
   padding: 1rem 0;
   line-height: 2;
 }
@@ -464,12 +472,12 @@ section {
 .services .box-container .box {
   text-align: center;
   padding: 2rem;
-  border: 0.2rem solid #10221b;
+  border: 0.2rem solid #FF748B;
   border-radius: 0.5rem;
   background: #fff;
 }
 .services .box-container .box:hover {
-  background: #10221b;
+  background: #FF748B;
 }
 .services .box-container .box:hover img {
   filter: invert(1);
@@ -483,7 +491,7 @@ section {
 }
 .services .box-container .box:hover .btn:hover {
   background: #fff;
-  color: #10221b;
+  color: #FF748B;
 }
 .services .box-container .box img {
   height: 10rem;
@@ -495,7 +503,7 @@ section {
 }
 .services .box-container .box p {
   font-size: 1.5rem;
-  color: #10221b;
+  color: #FF748B;
   padding: 1rem 0;
 }
 
@@ -505,7 +513,7 @@ section {
   font-style: italic;
   background: #eee;
   border-radius: 0.5rem;
-  color: #10221b;
+  color: #FF748B;
   line-height: 2;
   position: relative;
   z-index: 0;
@@ -533,7 +541,7 @@ section {
 }
 .reviews .slide .user h3 {
   font-size: 2rem;
-  color: #10221b;
+  color: #FF748B;
 }
 .reviews .slide .user span {
   color: #219150;
@@ -552,7 +560,7 @@ section {
   border-radius: 0.5rem;
 }
 .blogs .slide .icons {
-  background: #10221b;
+  background: #FF748B;
   border-radius: 0.5rem;
   padding: 1rem;
   position: relative;
@@ -573,13 +581,13 @@ section {
 }
 .blogs .slide h3 {
   font-size: 2rem;
-  color: #10221b;
+  color: #FF748B;
 }
 .blogs .slide p {
   font-size: 1.5rem;
   padding: 1rem 0;
   line-height: 2;
-  color: #10221b;
+  color: #FF748B;
 }
 
 .newsletter {
@@ -593,13 +601,13 @@ section {
 .newsletter .content p {
   font-size: 1.5rem;
   line-height: 2;
-  color: #10221b;
+  color: #FF748B;
 }
 .newsletter .content form {
   margin-top: 2rem;
   background: #fff;
   border-radius: 5rem;
-  border: 0.2rem solid #10221b;
+  border: 0.2rem solid #FF748B;
   padding: 0.7rem;
   display: flex;
 }
@@ -608,18 +616,18 @@ section {
   background: none;
   text-transform: none;
   font-size: 1.5rem;
-  color: #10221b;
+  color: #FF748B;
   padding: 0 1.3rem;
 }
 .newsletter .content form .btn {
   margin-top: 0;
   border-radius: 5rem;
-  background: #10221b;
+  background: #FF748B;
   color: #fff;
 }
 .newsletter .content form .btn:hover {
   background: none;
-  color: #10221b;
+  color: #FF748B;
 }
 
 .clients .slide {
