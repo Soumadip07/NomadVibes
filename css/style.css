@@ -102,6 +102,7 @@ section {
   margin-left: 2rem;
   font-size: 1.7rem;
   color: #F72C5B;
+  font-weight: 600;
 }
 .header .navbar a:hover {
   color: #A7D477;
